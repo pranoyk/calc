@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Calculator Assignmet</title>
+</head>
+
+<body>
+  <div>
+    <h1> Calculator Assignmet</h1>
+    <input id="expr" />
+    <button id="calculate" type="submit">Calculate</button>
+  </div>
+  <pre><div id="result"></div> </pre>
+</body>
+<script type="text/javascript">
+
+  const onSubmitHandler = () => {
+    const result = document.getElementById("result");
+    result.innerText = "Thanks for your input";
+  };
+  window.onload = () => {
+    document.getElementById("calculate").onclick = onSubmitHandler;
+  }
+
+
+
+</script>
+
+</html>
